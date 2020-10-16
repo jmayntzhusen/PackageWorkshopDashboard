@@ -1,0 +1,5 @@
+{
+  "library": "src/PackageWorkshop",
+  "pluginFolder": "PackageWorkshop",
+  "site": ".website"
+}

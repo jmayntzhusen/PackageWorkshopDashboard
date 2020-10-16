@@ -1,0 +1,15 @@
+{
+  "javascript": [
+    "~/App_Plugins/PackageWorkshop/dashboard/dashboardService.js",
+    "~/App_Plugins/PackageWorkshop/dashboard/dashboardController.js"
+  ],
+  "dashboards": [
+    {
+      "alias": "packageworkshop-dashboard",
+      "sections": [
+        "content"
+      ],
+      "view": "~/App_Plugins/PackageWorkshop/dashboard/dashboard.html"
+    }
+  ]
+}

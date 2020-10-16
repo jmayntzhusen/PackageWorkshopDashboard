@@ -1,0 +1,18 @@
+﻿<div ng-controller="packageworkshopDashboardController as vm">
+
+    <umb-load-indicator ng-if="vm.loading"></umb-load-indicator>
+
+    <div ng-if="!vm.loading">
+        <umb-box>
+            <umb-box-header title-key="PackageWorkshop_dashboardHeader"
+                            description-key="PackageWorkshop_dashboardDesc">
+            </umb-box-header>
+            <umb-box-content>
+                <h4>Umbraco Version: {{vm.info.status}}</h4>
+                <h4>Server Time : {{vm.info.time | date:'medium'}}</h4>
+            </umb-box-content>
+
+        </umb-box>
+    </div>
+
+</div>
